@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "docker"
+echo ""
+echo "Description:"
+echo "ShowLogsTheSomeContainerWithFollow"
+echo ""
+echo ""
+echo ""
+echo "Params:"
+echo "- Param 1"
