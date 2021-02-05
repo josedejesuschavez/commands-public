@@ -2,4 +2,4 @@
 
 image="${1}"
 
-docker run $image
+docker run --rm $image
