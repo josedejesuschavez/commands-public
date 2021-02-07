@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir Application
+mkdir Domain
+mkdir Infraestructure
