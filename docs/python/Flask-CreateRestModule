@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "python"
+echo ""
+echo "Description:"
+echo "Flask-CreateRestModule"
+echo ""
+echo ""
+echo ""
+echo "Params:"
+echo "- Param 1"
