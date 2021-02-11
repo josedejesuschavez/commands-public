@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "ElasticSearch"
+echo ""
+echo "Tipos de nodos:"
+echo "    - Nodos maetros    -> Se encarga de administracion y configuracion del cluster"
+echo "    - Nodos de datos   -> Sirve para almacenar documentos"
+echo "    - Nodos cliente    -> Son los puntos de entrada al cluster de elastic"
+echo "    - Nodos de ingesta -> Recogen documento y los preprocesan para despues enviarlo al nodo de datos"
+
+echo "Nodo master puede servir tambien como nodo cliente"
