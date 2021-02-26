@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "python
+
+Description:
+Create ABC (Abstract Base Class)
+
+
+Params:
+- Path
+- File name
+- ABC name
+"
