@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "python
+
+Description:
+functools
+
+
+@cache
+@total_ordering"
