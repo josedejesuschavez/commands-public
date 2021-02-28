@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "docker
+
+Description:
+Resolve some issues
+
+
+Problem execute elasticsearch because problem max virtual memory
+
+solution:
+wsl -d docker-desktop
+sysctl -w vm.max_map_count=262144
+"
