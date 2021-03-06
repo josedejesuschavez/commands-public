@@ -1,0 +1,34 @@
+ElasticSearch
+
+Uso -> Puede usarse para registrar los eventos de dominio
+
+Tipos de nodos:
+    - Nodos maetros    -> Se encarga de administracion y configuracion del cluster
+    - Nodos de datos   -> Sirve para almacenar documentos
+    - Nodos cliente    -> Son los puntos de entrada al cluster de elastic
+    - Nodos de ingesta -> Recogen documento y los preprocesan para despues enviarlo al nodo de datos
+
+Nodo master puede servir tambien como nodo cliente
+
+Documentos -> Unidad basica de elastic
+Indices    -> Es la agregacion de documentos de forma contextual
+Agregaciones
+Transformaciones
+
+Operacion basica a elasticsearch
+PUT localhost/indice/_doc/1                 -> Ingresa un documento en el indice con el identificador 1
+GET localhost/indice/_doc/1                 -> Obtiene el documento con el identificador 1
+GET localhost/indice                        -> Otiene los metadatos de indice
+GET localhost/indice/_search?q=level:ERROR  -> Obtiene una busqueda de documentos
+GET localhost/incide/_doc/_search  -> Obtiene una busqueda de documentos utilizando formato JSON para el query enviado en el BODY
+{
+    \"query\": {
+        \"query_string\": {
+            \"fields\": [\"level\"],
+            \"query\": \"ERROR or WARNING\"
+        }
+    }
+}
+
+Logstash
+Data Source -> Inputs|Filters|Outputs #Logstash Pipeline -> Elasticsearch
