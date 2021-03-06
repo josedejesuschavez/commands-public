@@ -1,6 +1,0 @@
-#!/bin/bash
-
-tag=${1}
-path=${2}
-
-docker build -t $tag $path
