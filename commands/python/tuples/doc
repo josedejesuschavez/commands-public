@@ -11,15 +11,15 @@ If we require behavior to manipulate a tuple, we hace to pass the tuple into
 function.
 
 Examples:
-stock = \"FB\", 177.46, 178.67, 175.79
+stock = "FB", 177.46, 178.67, 175.79
 or
-stock2 = (\"FB\", 177.46, 178.67, 175.79)
+stock2 = ("FB", 177.46, 178.67, 175.79)
 
 Access to tuple:
-stock = \"FB\", 177.46, 178.67, 175.79
+stock = "FB", 177.46, 178.67, 175.79
 print(stock[2])
 or
-stock = \"FB\", 177.46, 178.67, 175.79
+stock = "FB", 177.46, 178.67, 175.79
 symbol, current, hight, low = stock
 print(symbol)
 
@@ -28,8 +28,8 @@ Named tuples
 
 from collections import namedtuple
 
-Stock = namedtuple(\"Stock\", [\"symbol\", \"current\", \"high\", \"low\"])
-stock = Stock(\"FB\", 177.46, 178.67, 175.79)
+Stock = namedtuple("Stock", ["symbol", "current", "high", "low"])
+stock = Stock("FB", 177.46, 178.67, 175.79)
 stock.symbol
 
 
