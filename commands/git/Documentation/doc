@@ -15,8 +15,13 @@ git stash pop 1     -> Otbiene el estan en determinada posicion
 git branch branch_name      -> Crea una nueva rama
 git branch -d branch_name   -> Elimina una rama
 git branch                  -> Muestra el listado de las ramas
+git branch -a               -> Muestra el listado de las ramas incluyendo las ramas remotas
 git checkout branch_name    -> Nos cambiamos de rama
 git checkout -b "branch_name"   -> Nos cambiamos de rama y si no existe se crea una nueva rama
+
+git fetch origin    -> Nos trae todo lo nuevo de remoto solo como referencia
+git fetch -ap       -> Limpia todas las refencias a las ramas no existentes
+git pull            -> es igual a git fetch + git merge
 
 git tag             -> Muestra el listado de tags
 git tag tag_name    -> Crea un tag
