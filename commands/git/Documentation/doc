@@ -1,0 +1,21 @@
+git
+
+git add -A          -> Agrega todos los archivos a staging area
+git status          ->
+git commit -m       ->
+git commit -am      ->
+git remote -v       ->
+git log             ->
+
+git stash           -> Mueve a un espacio temporal lo que se encuentre en staging area
+git stash list      -> Muestra una lista de stash
+git stash pop       -> Obtiene el ultimo stash
+git stash pop 1     -> Otbiene el estan en determinada posicion
+
+git branch branch_name      -> Crea una nueva rama
+git branch -d branch_name   -> Elimina una rama
+git branch                  -> Muestra el listado de las ramas
+git checkout branch_name    -> Nos cambiamos de rama
+
+git tag             -> Muestra el listado de tags
+git tag tag_name    -> Crea un tag
