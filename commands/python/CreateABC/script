@@ -4,5 +4,5 @@ path=${1}
 file=${2}
 abc=${3}
 
-cp $DOTFILES_PATH/templates/python/CreateABC/ABC.py $path/$file.py
+cp $DOTFILES_PATH/commands/python/CreateABC/code/ABC.py $path/$file.py
 sed -i 's/${abc_name}/'$abc'/g' $path/$file.py
